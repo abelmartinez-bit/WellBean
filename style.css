@@ -1,15 +1,19 @@
 body {
     background-color: #fdf6ec;
     margin: 0;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Inter'
 }
 
  h1 {
     color: #8B2B1A;
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
 }
 
  h2 {
     color: #8B2B1A;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
 }
 
  p {
