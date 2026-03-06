@@ -59,6 +59,7 @@ footer {
 .btn:hover {
     background-color: #6B1D10;
 }
+
 @media (max-width: 600px) {
     h1 {
         font-size: 36px;
@@ -75,4 +76,19 @@ footer {
     section {
         padding: 24px 16px;
     }
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.hero img {
+    height: 500px;
+    object-position: top center;
 }
