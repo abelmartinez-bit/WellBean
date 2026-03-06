@@ -4,24 +4,24 @@ body {
     font-family: 'Inter'
 }
 
- h1 {
+h1 {
     color: #8B2B1A;
     font-family: 'Playfair Display', serif;
     font-size: 56px;
 }
 
- h2 {
+h2 {
     color: #8B2B1A;
     font-family: 'Playfair Display', serif;
     font-size: 28px;
 }
 
- p {
+p {
     color: #4A3728;
     font-size: 18px;
 }
 
- a {
+a {
     color: #8B2B1A;
 }
 
@@ -33,12 +33,17 @@ section {
 
 footer {
     border-top: 1px solid #8B2B1A;
+
+    a:hover {
+        opacity: 0.7;
+    }
 }
 
 .hero {
     text-align: center;
     padding: 80px 20px;
 }
+
 .btn {
     display: inline-block;
     background-color: #8B2B1A;
@@ -48,4 +53,9 @@ footer {
     border-radius: 8px;
     font-weight: 500;
     font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #6B1D10;
 }
