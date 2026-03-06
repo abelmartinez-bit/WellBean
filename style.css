@@ -59,3 +59,20 @@ footer {
 .btn:hover {
     background-color: #6B1D10;
 }
+@media (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .hero {
+        padding: 40px 16px;
+    }
+
+    section {
+        padding: 24px 16px;
+    }
+}
