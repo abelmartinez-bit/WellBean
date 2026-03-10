@@ -92,3 +92,20 @@ img {
     height: 500px;
     object-position: top center;
 }
+
+dl {
+    max-width: 600px;
+}
+
+dt {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #8B2B1A;
+    margin-top: 20px;
+}
+
+dd {
+    margin-left: 0;
+    color: #4A3728;
+    margin-style: italic;
+}
